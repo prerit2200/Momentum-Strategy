@@ -35,7 +35,7 @@ def process_csv_files(
     folder_path: str,
     start_date: pd.Timestamp,
     lookback_months: int = 12,
-    top_k: int = 10,
+    top_k: int = 25,
     buffer: int = 10,
     benchmark: float = 6.0,
     portfolio_capital: float = 1_00_000,
