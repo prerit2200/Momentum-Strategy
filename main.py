@@ -58,7 +58,7 @@ class App(QWidget):
         self.lookback_spin.setValue(12)
         params_layout.addWidget(self.lookback_spin)
 
-        params_layout.addWidget(QLabel("Top K:"))
+        params_layout.addWidget(QLabel("No. of Stocks:"))
         self.topk_spin = QSpinBox()
         self.topk_spin.setRange(1, 1000)
         self.topk_spin.setValue(10)
