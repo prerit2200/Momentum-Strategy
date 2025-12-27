@@ -1,14 +1,41 @@
 # Python
 __pycache__/
-*.pyc
-
-# Excel outputs
-*.xlsx
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
 
 # Virtual environments
 venv/
+.venv/
 env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Excel outputs
+*.xlsx
+*.xls
+
+# Data files (CSV inputs)
+*.csv
+
+# Temporary files
+*.tmp
+*.bak
+
+# PyInstaller
+build/
+dist/
+*.spec
